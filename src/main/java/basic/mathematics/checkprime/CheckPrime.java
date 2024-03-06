@@ -39,7 +39,7 @@ public class CheckPrime {
      * @param n
      * @return
      */
-    static boolean isPrimeOptimized(int n){
+    public static boolean isPrimeOptimized(int n){
         if(n == 1)
             return false;
         if(n == 2 || n == 3)
